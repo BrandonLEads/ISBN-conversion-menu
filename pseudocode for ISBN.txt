@@ -1,0 +1,17 @@
+display conversion menu
+request input from user to choose menu option
+if user requests 1-5 then it tests ok
+if not then return an error
+request input from user to enter in ISBN
+if user inputs anything outside of ISBN10 or 13 then return an error
+
+if user chooses 1 program verifies check digit for ISBN10
+if user chooses 2 program verifies check digit for ISBN13
+if user chooses 3 program converts ISBN10 to 13
+if user chooses 4 program converts ISBN13 to 10
+if user chooses 5 program exits
+
+for i in range(9):
+    i = i + 1
+    sum = int(isbn(i)) * i
+    choice % 11 
